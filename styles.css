@@ -23,7 +23,14 @@ body {
     border-bottom: 7px solid #8b5a41;
     color: #2b272a;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, #8b5a41 45%, #536e79 55%);
+    background-image: background-image: linear-gradient(
+  45deg,
+  rgba(139, 90, 65, 0.2) 0%,      /* Light pink-brown */
+  rgba(139, 90, 65, 1) 40%,       /* Full pink-brown */
+  rgba(83, 110, 121, 0.2) 60%,    /* Light teal-gray */
+  rgba(83, 110, 121, 1) 100%      /* Full teal-gray */
+);
+
     /* 
     Challenge:
     Find a color palette you like on Coolors.co
