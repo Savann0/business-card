@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-  /* background-color: #536e79;*/
+   background-color: #536e79;
     border-bottom: 7px solid #8b5a41;
     color: #2b272a;
     border-radius: 5px;
