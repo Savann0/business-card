@@ -24,12 +24,13 @@ body {
     color: #2b272a;
     border-radius: 5px;
     background-image: linear-gradient(
-      45deg,
-      rgba(139, 90, 65, 0.2) 0%,
-      rgba rgba(43, 39, 42, 1) 40%,
-      rgba(83, 110, 121, 0.2) 60%,
-      rgba(83, 110, 121, 1) 100%
-    );
+  45deg,
+  rgba(43, 39, 42, 0.2) 0%,     /* Light version of #2b272a */
+  rgba(43, 39, 42, 1) 40%,      /* Full #2b272a */
+  rgba(83, 110, 121, 0.2) 60%,  /* Light teal-gray */
+  rgba(83, 110, 121, 1) 100%    /* Full teal-gray */
+);
+
 
     /* 
     Challenge:
